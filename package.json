@@ -17,7 +17,7 @@
   "author": "Deseteral <github.com/deseteral>",
   "license": "MIT",
   "dependencies": {
-    "ponczek": "1.0.0-SNAPSHOT.0"
+    "ponczek": "1.0.0-SNAPSHOT.3"
   },
   "devDependencies": {
     "@deseteral/eslint-config": "7.0.0",

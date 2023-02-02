@@ -1,6 +1,6 @@
 import fs from 'fs';
 import path from 'path';
-import { AssetDefinition } from 'ponczek/src/core/assets';
+import { AssetDefinition } from 'ponczek';
 
 function readFileNames(directoryPath: string): AssetDefinition[] {
   fs.mkdirSync(directoryPath, { recursive: true });

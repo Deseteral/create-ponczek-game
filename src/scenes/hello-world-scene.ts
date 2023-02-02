@@ -1,6 +1,4 @@
-import { Scene } from 'ponczek/src/core/scene';
-import { Screen } from 'ponczek/src/gfx/screen';
-import { Color } from 'ponczek/src/gfx/color';
+import { Scene, Screen, Color } from 'ponczek';
 
 export class HelloWorldScene extends Scene {
   update(): void { }
