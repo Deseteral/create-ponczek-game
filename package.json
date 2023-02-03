@@ -3,7 +3,7 @@
     "create-ponczek-game": "./init.sh"
   },
   "name": "create-ponczek-game",
-  "version": "1.0.0",
+  "version": "1.0.0-SNAPSHOT.3",
   "description": "New game template for ponczek game framework",
   "scripts": {
     "test": "npm run test:type-check && npm run test:lint",

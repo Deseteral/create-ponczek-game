@@ -4,6 +4,14 @@
 PROJECT_NAME=""
 read -p "Enter project name: " PROJECT_NAME
 
+PROJECT_PATH="$(pwd)/$PROJECT_NAME"
+
+# Copy template files
+SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
+cd "$SCRIPT_DIR/.."
+cp -r "./create-ponczek-game" "$PROJECT_PATH"
+cd "$PROJECT_PATH"
+
 # Replace project name
 find . -type f -name '*' \
   -not -path './node_modules/*' \
@@ -16,3 +24,7 @@ sed -i '' -e '2,4d' ./package.json
 
 # Remove this script
 rm -rf ./init.sh
+
+# Clean git state
+rm -rf ./.git
+git init
