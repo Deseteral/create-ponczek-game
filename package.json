@@ -24,7 +24,7 @@
     "clean": "rm -rf ./dist"
   },
   "dependencies": {
-    "ponczek": "1.0.0"
+    "ponczek": "1.1.0"
   },
   "devDependencies": {
     "@deseteral/eslint-config": "7.0.0",
