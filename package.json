@@ -3,7 +3,7 @@
     "create-ponczek-game": "./init.sh"
   },
   "name": "create-ponczek-game",
-  "version": "1.1.0",
+  "version": "1.0.0",
   "description": "New game template for ponczek game framework",
   "author": "Deseteral <github.com/deseteral>",
   "license": "MIT",
