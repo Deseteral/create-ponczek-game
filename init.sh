@@ -29,3 +29,11 @@ rm -rf ./init.sh
 # Clean git state
 rm -rf ./.git
 git init
+git submodule add https://github.com/deseteral/ponczek.git
+git submodule update --init --recursive
+
+# Install deps
+cd ./ponczek
+yarn install
+cd ..
+yarn install
