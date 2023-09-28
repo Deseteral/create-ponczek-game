@@ -3,7 +3,7 @@
     "create-ponczek-game": "./init.sh"
   },
   "name": "create-ponczek-game",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "New game template for ponczek game framework",
   "author": "Deseteral <github.com/deseteral>",
   "license": "MIT",
@@ -22,9 +22,6 @@
     "preview": "vite preview",
     "build-assets": "ts-node ./scripts/generate-asset-list.ts",
     "clean": "rm -rf ./dist"
-  },
-  "dependencies": {
-    "ponczek": "1.1.0"
   },
   "devDependencies": {
     "@deseteral/eslint-config": "7.0.0",
