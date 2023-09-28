@@ -10,6 +10,8 @@
     "paths": {
       "create-ponczek-game/*": ["./src/*"],
       "*": ["node_modules/*"],
+      "ponczek/*": ["./ponczek/src/*"],
+      "ponczek": ["./ponczek/src"],
     },
     "resolveJsonModule": true,
 

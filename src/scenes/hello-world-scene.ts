@@ -6,5 +6,9 @@ export class HelloWorldScene extends Scene {
   render(scr: Screen): void {
     scr.clearScreen(Color.black);
     scr.drawText('Hello world, Ponczku!', 10, 10, Color.white);
+
+    ImGui.Begin('Hello');
+    ImGui.Button('Click me!');
+    ImGui.End();
   }
 }

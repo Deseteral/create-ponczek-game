@@ -13,6 +13,7 @@ export default defineConfig({
   resolve: {
     alias: {
       'create-ponczek-game': path.resolve(__dirname, './src'),
+      ponczek: path.resolve(__dirname, './ponczek/src'),
     },
   },
   server: {

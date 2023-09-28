@@ -23,9 +23,6 @@
     "build-assets": "ts-node ./scripts/generate-asset-list.ts",
     "clean": "rm -rf ./dist"
   },
-  "dependencies": {
-    "ponczek": "1.1.0"
-  },
   "devDependencies": {
     "@deseteral/eslint-config": "7.0.0",
     "@types/node": "18.11.18",
