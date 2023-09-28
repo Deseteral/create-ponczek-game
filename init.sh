@@ -16,6 +16,7 @@ cd "$PROJECT_PATH"
 find . -type f -name '*' \
   -not -path './node_modules/*' \
   -not -path './.git/*' \
+  -not -path './ponczek/*' \
   -not -path './assets/*' | \
   xargs sed -i '' -e "s/create-ponczek-game/$PROJECT_NAME/g"
 
