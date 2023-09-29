@@ -9,6 +9,11 @@ export default defineConfig({
   build: {
     outDir: path.join(__dirname, './dist'),
     assetsDir: 'public',
+    rollupOptions: {
+      output: {
+        format: 'umd',
+      },
+    },
   },
   resolve: {
     alias: {
